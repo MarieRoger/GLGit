@@ -39,11 +39,7 @@ liste supprimer(liste l) {
 
 void afficherliste(liste l) {
     liste tmp = l;
-    do {
-        affichage_voie(tmp->contenu);
-        tmp=tmp->next;
-    }
-    while (tmp->next != NULL);
+    while (tmp -> next != NULL) {
 }
 
 int case_vide(liste l) {
